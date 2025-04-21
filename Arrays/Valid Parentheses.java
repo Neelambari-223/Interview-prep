@@ -30,7 +30,7 @@ class Solution {
         
         for(int i=0;i<s.length();i++)
         {
-            if(i==0)
+            if(st.isEmpty())
             {
                 System.out.println("s[i]="+s.charAt(i)+" i="+i);
                 st.push(s.charAt(i));
